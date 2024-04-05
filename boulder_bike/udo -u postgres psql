@@ -1,0 +1,26 @@
+[0;1;32m●[0m postgresql.service - PostgreSQL database server
+     Loaded: loaded (]8;;file://magali-82qq/usr/lib/systemd/system/postgresql.service/usr/lib/systemd/system/postgresql.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;38;5;185mdisabled[0m)
+     Active: [0;1;32mactive (running)[0m since Fri 2024-03-22 09:27:03 CET; 6 days ago
+   Main PID: 7048 (postgres)
+      Tasks: 7 (limit: 16478)
+     Memory: 39.6M (peak: 41.0M swap: 12.8M swap peak: 16.8M)
+        CPU: 43.742s
+     CGroup: /system.slice/postgresql.service
+             ├─[0;38;5;245m   7048 /usr/bin/postgres -D /var/lib/postgres/data[0m
+             ├─[0;38;5;245m   7051 "postgres: checkpointer "[0m
+             ├─[0;38;5;245m   7052 "postgres: background writer "[0m
+             ├─[0;38;5;245m   7054 "postgres: walwriter "[0m
+             ├─[0;38;5;245m   7055 "postgres: autovacuum launcher "[0m
+             ├─[0;38;5;245m   7056 "postgres: logical replication launcher "[0m
+             └─[0;38;5;245m2030601 "postgres: magali your_app_development ::1(47552) idle"[0m
+
+mars 28 22:15:54 magali-82qq postgres[7051]: 2024-03-28 22:15:54.513 CET [7051] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.704 s, sync=0.011 s, total=0.722 s; sync files=7, longest=0.003 s, average=0.002 s; distance=27 kB, estimate=27 kB; lsn=0/2643D78, redo lsn=0/2643D40
+mars 28 22:20:53 magali-82qq postgres[7051]: 2024-03-28 22:20:53.613 CET [7051] LOG:  checkpoint starting: time
+mars 28 22:20:54 magali-82qq postgres[7051]: 2024-03-28 22:20:54.231 CET [7051] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.602 s, sync=0.008 s, total=0.618 s; sync files=7, longest=0.003 s, average=0.002 s; distance=40 kB, estimate=40 kB; lsn=0/264DF00, redo lsn=0/264DEC8
+mars 28 22:30:53 magali-82qq postgres[7051]: 2024-03-28 22:30:53.352 CET [7051] LOG:  checkpoint starting: time
+mars 28 22:30:53 magali-82qq postgres[7051]: 2024-03-28 22:30:53.872 CET [7051] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.503 s, sync=0.009 s, total=0.521 s; sync files=6, longest=0.002 s, average=0.002 s; distance=21 kB, estimate=38 kB; lsn=0/2653478, redo lsn=0/2653440
+mars 28 22:35:53 magali-82qq postgres[7051]: 2024-03-28 22:35:53.887 CET [7051] LOG:  checkpoint starting: time
+mars 28 22:35:54 magali-82qq postgres[7051]: 2024-03-28 22:35:54.305 CET [7051] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.402 s, sync=0.007 s, total=0.418 s; sync files=5, longest=0.002 s, average=0.002 s; distance=10 kB, estimate=35 kB; lsn=0/2655E10, redo lsn=0/2655DD8
+mars 28 22:40:53 magali-82qq postgres[7051]: 2024-03-28 22:40:53.401 CET [7051] LOG:  checkpoint starting: time
+mars 28 22:40:54 magali-82qq postgres[7051]: 2024-03-28 22:40:54.328 CET [7051] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.905 s, sync=0.013 s, total=0.928 s; sync files=8, longest=0.003 s, average=0.002 s; distance=35 kB, estimate=35 kB; lsn=0/265EBF0, redo lsn=0/265EBB8
+mars 28 22:45:54 magali-82qq postgres[2050657]: 2024-03-28 22:45:54.947 CET [2050657] FATAL:  database "magali" does not exist
