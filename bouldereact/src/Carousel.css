@@ -1,0 +1,10 @@
+.carousel-image {
+    width: auto; /* ajustez la largeur selon vos besoins */
+    height: 500px; /* ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* ou object-fit: contain; selon le comportement souhaité */
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 6px 0px 6px #4b4f33;
+  }
+  
