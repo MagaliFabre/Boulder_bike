@@ -20,12 +20,8 @@ Rails.application.routes.draw do
   # Page d'accueil avec le décompte
   root 'home#index'
 
-# rider
-  resources :riders, only: [:index]  # Cette ligne définit la route GET /riders pour l'action index
-
-  # Routes pour les localisations
-  resources :locations
-
-  # Routes pour les soumissions de slogans
-  resources :submissions, only: [:index, :new, :create]
+  # Supprimer les lignes pour éviter les conflits avec les routes API dans le namespace api/v1
+  # resources :riders, only: [:index]
+  # resources :locations
+  # resources :submissions, only: [:index, :new, :create]
 end

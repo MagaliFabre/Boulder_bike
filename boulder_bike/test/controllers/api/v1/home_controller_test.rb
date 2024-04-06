@@ -1,5 +1,5 @@
-require "test_helper"
+# require "test_helper"
 
-class Api::V1::HomeControllerTest < ActionDispatch::IntegrationTest
+# class Api::V1::HomeControllerTest < ActionDispatch::IntegrationTest
 
-end
+# end

@@ -1,4 +1,10 @@
 class Api::V1::SubmissionsController < ApplicationController
+  # GET /api/v1/submissions
+  def index
+    @submissions = Submission.all
+    render json: @submissions
+  end
+
   # POST /api/v1/submissions
   def create
     @submission = Submission.new(submission_params)
@@ -16,5 +22,4 @@ class Api::V1::SubmissionsController < ApplicationController
   def submission_params
     params.require(:submission).permit(:first_name, :last_name, :email, :slogan)
   end
-
 end

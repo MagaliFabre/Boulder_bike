@@ -1,7 +1,7 @@
-require "test_helper"
+# require "test_helper"
 
-class RiderTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
-end
+# class RiderTest < ActiveSupport::TestCase
+#   # test "the truth" do
+#   #   assert true
+#   # end
+# end

@@ -2,7 +2,6 @@ module Api
   module V1
     class RidersController < ApplicationController
       before_action :set_rider, only: [:show, :update, :destroy]
-# app/controllers/riders_controller.rb
 
       # GET /api/v1/riders
       def index
