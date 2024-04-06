@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Carousel.css'; // Assurez-vous d'avoir un fichier CSS pour styliser le carousel
+import './Carousel.css'; 
 import { Box } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';

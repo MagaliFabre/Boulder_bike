@@ -21,11 +21,11 @@
 .controlButtons {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Ajoute une marge en bas des boutons */
+  margin-bottom: 20px; 
 }
 
 .mapContainer {
-  margin: 20px; /* Ajoute une marge autour de la carte */
+  margin: 20px; 
 }
 
 /* fond  */

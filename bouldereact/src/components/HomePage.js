@@ -93,7 +93,7 @@ function HomePage() {
           </Box>
         </Grid>
 
-{/* Zone 3: Découvrir la ville de Boulder et les riders */}
+{/* Zone 3: Découvrir les riders */}
  <Grid item xs={12}>
           <Box p={4} bgcolor="#8F9779" color="#ffffff"  >
             <Typography variant="h4" sx={{ display: 'flex', justifyContent: 'center' }} gutterBottom>Discover the riders</Typography>

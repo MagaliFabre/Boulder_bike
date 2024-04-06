@@ -1,7 +1,7 @@
 .carousel-image {
-    width: auto; /* ajustez la largeur selon vos besoins */
-    height: 500px; /* ajustez la hauteur selon vos besoins */
-    object-fit: cover; /* ou object-fit: contain; selon le comportement souhaité */
+    width: auto; 
+    height: 500px; 
+    object-fit: cover; 
     display: flex;
     align-items: center;
     border-radius: 5%;
