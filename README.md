@@ -38,6 +38,11 @@ To get a local copy up and running, follow these simple steps:
 2. Start the React development server by running `npm start` in the `bouldereact` directory.
 3. Open `http://localhost:3001/` in your browser to view the Boulder Bike Tour application.
 
+## Db schema
+
+![dbschema](download.png)
+
+
 ## Authors
 
 - Magali Fabre
