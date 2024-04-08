@@ -40,19 +40,19 @@ To get a local copy up and running, follow these simple steps:
 
 ## Db schema
 
-![dbschema](./dbschema.png)
+![dbschema](./readmepicture/dbschema.png)
 
 ## Home page
 
-![Homepage](./homepagescreen.png)
+![Homepage](./readmepicture/homepagescreen.png)
 
 ## Submission form 
 
-![formscreen](./formscreen.png)
+![formscreen](./readmepicture/formscreen.png)
 
 ## TomTom Map
 
-![TomTom Map](./tomtommap.png)
+![TomTom Map](./readmepicture/tomtommap.png)
 
 
 ## Authors
