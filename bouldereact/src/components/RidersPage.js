@@ -21,7 +21,7 @@ export default function RiderCards() {
         const data = await response.json();
         setRiders(data);
       } catch (error) {
-        console.error('Error fetching riders data:', error);
+        console.error("Error fetching riders data:", error);
       }
     };
 

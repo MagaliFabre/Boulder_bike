@@ -1,24 +1,52 @@
-# README
+# Boulder Bike Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+This project is for the Boulder Bike Tour application, developed as part of the Ruby on Rails capstone project. The application allows users to track bike riders' locations in real-time during the Boulder Bike Tour event.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby v2.7.2
+- Ruby on Rails v6.1.0
+- PostgreSQL
+- React v17.0.2
+- TomTom Maps API
+- MUI (formerly Material-UI) for UI components
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running, follow these simple steps:
 
-* Database initialization
+### Initial Setup
 
-* How to run the test suite
+1. Clone this repository with `git clone <repository_url>` using your terminal or command line.
+2. Change to the project directory by entering `cd boulder_bike` in the terminal.
+3. Navigate to the `boulder_bike` directory for the Rails backend, and follow the setup instructions in the `README.md` file.
+4. Navigate to the `client` directory for the React frontend, and follow the setup instructions in the `README.md` file.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Features
 
-* Deployment instructions
+- Real-time tracking of bike riders' locations using TomTom Maps API.
+- Zoom in/out functionality to adjust map view.
+- Display of rider information (first name, last name) on map markers.
+- Easy navigation controls to browse through different map views.
+- Responsive design for seamless user experience across devices.
 
-* ...
+## Usage
+
+1. Start the Rails server by running `rails server` in the `boulder_bike` directory.
+2. Start the React development server by running `npm start` in the `client` directory.
+3. Open `http://localhost:3000/` in your browser to view the Boulder Bike Tour application.
+
+## Authors
+
+- [Your Name]
+
+## Acknowledgments
+
+- TomTom Maps API
+- [MUI (formerly Material-UI)](https://mui.com/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
