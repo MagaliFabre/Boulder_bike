@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is for the Boulder Bike Tour application, developed as part of the Ruby on Rails capstone project. The application allows users to track bike riders' locations in real-time during the Boulder Bike Tour event.
+This project is for the Boulder Bike Tour application, developed as part of the Ruby on Rails project for Openclassrooms. The application allows users to track bike riders' locations in real-time during the Boulder Bike Tour event.
 
 ## Built With
 
@@ -19,7 +19,7 @@ To get a local copy up and running, follow these simple steps:
 
 ### Initial Setup
 
-1. Clone this repository with `git clone <repository_url>` using your terminal or command line.
+1. Clone this repository with `git clone (https://github.com/MagaliFabre/Boulder_bike.git)` using your terminal or command line.
 2. Change to the project directory by entering `cd boulder_bike` in the terminal.
 3. Navigate to the `boulder_bike` directory for the Rails backend, and follow the setup instructions in the `README.md` file.
 4. Navigate to the `bouldereact` directory for the React frontend, and follow the setup instructions in the `README.md` file.
@@ -40,7 +40,19 @@ To get a local copy up and running, follow these simple steps:
 
 ## Db schema
 
-![dbschema](download.png)
+![dbschema](./dbschema.png)
+
+## Home page
+
+![Homepage](./homepagescreen.png)
+
+## Submission form 
+
+![formscreen](./formscreen.png)
+
+## TomTom Map
+
+![TomTom Map](./tomtommap.png)
 
 
 ## Authors
